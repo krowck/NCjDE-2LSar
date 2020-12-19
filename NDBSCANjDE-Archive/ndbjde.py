@@ -14,7 +14,7 @@ from statistics import median, stdev
 from matplotlib import pyplot as plt
 from time import gmtime, strftime, localtime, time, sleep
 from random import uniform, choice, randint, gauss, sample
-from cec2013 import *
+from cec2013copy import *
 from scipy.spatial import distance
 from collections import Counter
 from eucl_dist.cpu_dist import dist
@@ -519,7 +519,7 @@ class DE:
 
         crowding_target = 0
         neighborhood_list = []
-        funcs = ["haha", "five_uneven_peak_trap", "equal_maxima", "uneven_decreasing_maxima", "himmelblau", "six_hump_camel_back", "shubert", "vincent", "shubert", "vincent", "modified_rastrigin_all", "CF1", "CF2", "CF3", "CF3", "CF4", "CF3", "CF4", "CF3", "CF4", "CF4", "protein", "protein","protein", "protein"]
+        funcs = ["haha", "five_uneven_peak_trap", "equal_maxima", "uneven_decreasing_maxima", "himmelblau", "six_hump_camel_back", "shubert", "vincent", "shubert", "vincent", "modified_rastrigin_all", "CF1", "CF2", "CF3", "CF3", "CF4", "CF3", "CF4", "CF3", "CF4", "CF4", "CF4", "CF4", "CF4", "CF4", "CF4", "CF4", "CF4", "CF4", "CF4", "CF4"]
         m = 0
         PR = [] #PEAK RATIO
         SR = 0.0
@@ -1293,7 +1293,7 @@ class DE:
 
 if __name__ == '__main__': 
     from ndbjde import DE
-    funcs = ["haha", five_uneven_peak_trap, equal_maxima, uneven_decreasing_maxima, himmelblau, six_hump_camel_back, shubert, vincent, shubert, vincent, modified_rastrigin_all, CF1, CF2, CF3, CF3, CF4, CF3, CF4, CF3, CF4, CF4, protein, protein, protein, protein]
+    funcs = ["haha", five_uneven_peak_trap, equal_maxima, uneven_decreasing_maxima, himmelblau, six_hump_camel_back, shubert, vincent, shubert, vincent, modified_rastrigin_all, CF1, CF2, CF3, CF3, CF4, CF3, CF4, CF3, CF4, CF4, CF4, CF4, CF4, CF4, CF4, CF4, CF4, CF4, CF4, CF4]
     #nfunc = 1
     parser = argparse.ArgumentParser()
 
