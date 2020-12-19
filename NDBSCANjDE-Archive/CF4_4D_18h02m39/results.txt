@@ -1,0 +1,18 @@
+ID: CF4	Date: 2020-12-19 21:02:39	Runs: 1
+=================================================================================================================
+Tamanho da populacao: 100
+Iteracoes Maximas: 2800
+Funcao Otimizada: <class 'CF4.CF4'>
+Gbest Overall: 0.0000
+Niter: 22.1000
+ , Positions: [-0.49969507008588165, -4.012597088435237, -4.88089688433933, -1.0102555336323964]
+Mean Peaks Found on Run 0: 0.125000 (1.000000) Best Fitness: 0.000000 
+Success rate: 0.0000
+
+Gbest Average: 0.0000
+Gbest Median: 0.0000 #probably should use median to represent due probably non-normal distribution (see Shapiro-Wilk normality test)
+Elappsed Time Average: 394.9258
+Elappsed Time Hooke-Jeeves: 74.8831
+Elappsed Time Nelder-Mead: 74.0300
+Final Time recorded: 18h11m44
+=================================================================================================================
