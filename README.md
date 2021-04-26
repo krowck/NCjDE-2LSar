@@ -1,5 +1,11 @@
 # NCjDE-2LSar: Multiple Global Optima Location Using Differential Evolution, Clustering, and Local Search  
 
+##### Requirements
+
+- ###### [sklearn]  
+
+- ###### [sobol_seq]  
+
 How to execute:  
 
 python3 ndbjde.py -acc 0.001 -a 1 -flag 0 -r 1 -p 150 -f 1  
